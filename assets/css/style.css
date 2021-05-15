@@ -1,0 +1,115 @@
+body {
+  background: #e9ecef;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 70px 0 0 0;
+  color: #EF8354;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+span {
+  border: 2px solid #4F5D75;
+  padding: 10px;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0 150px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #212529;
+  margin: 20px 20px 20px 20px;
+  color: #212529;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #e85093;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
+}
+
+#button:hover #circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+#button:hover a {
+  color: #2D3142;
+}
+
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
